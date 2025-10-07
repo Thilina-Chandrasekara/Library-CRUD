@@ -1,0 +1,20 @@
+@'
+# Node / Vite
+frontend/node_modules/
+frontend/dist/
+*.log
+
+# .NET
+backend/bin/
+backend/obj/
+backend/.vs/
+*.user
+*.suo
+
+# OS/Editor
+.DS_Store
+Thumbs.db
+
+# Local DB (optional: ignore from git)
+backend/library.db
+'@ | Out-File -Encoding utf8 .gitignore
